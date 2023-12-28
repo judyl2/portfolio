@@ -5,7 +5,12 @@
 body {
 	font-family: "Playfair Display", serif;
 	font-family: "Poppins", sans-serif;
+	background-color: var(--secondary-color);
 }
+a {
+	color: black;
+}
+
 .navbar {
 	background-color: var(--secondary-color);
 }
@@ -23,7 +28,9 @@ body {
 	height: 48px;
 	border-radius: 24px;
 }
-
-a {
-	color: black;
+.btn-sec {
+	border-color: var(--primary-color);
+	border-width: 2px;
+	height: 48px;
+	border-radius: 24px;
 }
