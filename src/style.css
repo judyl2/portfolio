@@ -1,6 +1,7 @@
 :root {
 	--primary-color: #d6cc99;
 	--secondary-color: #f8f0e5;
+	--tertiary-color: #795d2c;
 	--deflaut-font-family: "Merriweather Sans", sans-serif;
 	--heading-font-family: "Merriweather", serif;
 }
@@ -32,6 +33,9 @@ h2 {
 }
 h3 {
 	font-size: 24px;
+}
+a:hover {
+	color: var(--tertiary-color);
 }
 .navbar {
 	background-color: var(--secondary-color);
