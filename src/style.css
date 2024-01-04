@@ -34,16 +34,32 @@ h2 {
 h3 {
 	font-size: 24px;
 }
-a:hover {
+
+a:hover,
+nav li.active a {
 	color: var(--tertiary-color);
 }
-.navbar {
-	background-color: var(--secondary-color);
-	padding: 10px;
+.logo {
+	max-height: 52px;
 }
-#navbarNav {
-	justify-content: right;
+
+nav {
+	background-color: var(--primary-color);
+	padding: 20px;
 }
+nav li {
+	display: inline;
+	list-style: none;
+	margin-left: 14px;
+}
+nav ul {
+	margin-top: 12px;
+}
+nav a {
+	text-decoration: none;
+	transition: all 150ms ease-in-out;
+}
+
 .hero {
 	background: var(--primary-color);
 	text-align: center;
