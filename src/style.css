@@ -1,13 +1,19 @@
 :root {
-	--primary-color: #d6cc99;
-	--secondary-color: #f8f0e5;
-	--tertiary-color: #795d2c;
+	--primary-color: #a9b388;
+	--secondary-color: #b99470;
+	--tertiary-color: #fefae0;
+	--fourth-color: #5f6f52;
 	--deflaut-font-family: "Merriweather Sans", sans-serif;
 	--heading-font-family: "Merriweather", serif;
 }
 
+/* --primary-color: #d6cc99;
+	--secondary-color: #f8f0e5;
+	--tertiary-color: #795d2c;
+	--fourth-color: #a9b388;
+	--fifth-color: #b99470; */
 body {
-	background-color: var(--secondary-color);
+	background-color: var(--teritary-color);
 	line-height: 1.5rem;
 }
 a {
@@ -22,7 +28,6 @@ p {
 	font-family: var(--deflaut-font-family);
 	font-weight: 300;
 	font-size: 16px;
-	margin-bottom: 32px;
 }
 
 h1 {
@@ -33,6 +38,9 @@ h2 {
 }
 h3 {
 	font-size: 24px;
+}
+a {
+	text-decoration: none;
 }
 
 a:hover,
@@ -69,13 +77,13 @@ nav a {
 }
 
 .btn-branding {
-	background: white;
+	background: var(--tertiary-color);
 	height: 48px;
 	border-radius: 24px;
 	padding: 10px 20px;
 }
 .btn-sec {
-	border-color: var(--primary-color);
+	border-color: var(--fourth-color);
 	border-width: 2px;
 	height: 48px;
 	border-radius: 24px;
@@ -83,8 +91,8 @@ nav a {
 .btn-branding-dark {
 	background: var(--primary-color);
 	height: 48px;
-	border-radius: 24px;
 	padding: 10px 20px;
+	border-radius: 24px;
 }
 .project-description {
 	padding: 48px;
@@ -93,6 +101,29 @@ nav a {
 .about-content {
 	padding: 36px;
 }
+footer .contact-box {
+	background: var(--primary-color);
+	padding: 24px 38px;
+	padding-top: 32px;
+	border-radius: 4px;
+}
+
+footer {
+	text-align: center;
+	font-size: 24px;
+	margin: 20px;
+}
+
+footer .social-links {
+	padding: 36px;
+}
+footer .social-links a {
+	background: var(--primary-color);
+	padding: 10px 12px;
+	margin: 20px;
+	border-radius: 50%;
+}
+
 @media (max-width: 900px) {
 	h1 {
 		font-size: 32px;
