@@ -7,11 +7,6 @@
 	--heading-font-family: "Merriweather", serif;
 }
 
-/* --primary-color: #d6cc99;
-	--secondary-color: #f8f0e5;
-	--tertiary-color: #795d2c;
-	--fourth-color: #a9b388;
-	--fifth-color: #b99470; */
 body {
 	background-color: var(--teritary-color);
 	line-height: 1.5rem;
@@ -44,7 +39,7 @@ a {
 }
 
 a:hover {
-	color: var(--secondary-color);
+	color: var(--fourth-color);
 }
 nav li.active a {
 	color: var(--tertiary-color);
@@ -87,8 +82,9 @@ nav a {
 .btn-sec {
 	border-color: var(--secondary-color);
 	border-width: 2px;
-	height: 48px;
+
 	border-radius: 24px;
+	padding: 10px;
 }
 .btn-branding-dark {
 	background: var(--primary-color);
@@ -96,11 +92,13 @@ nav a {
 	padding: 10px 20px;
 	border-radius: 24px;
 }
-button:hover {
+.btn-branding:hover,
+.btn-sec:hover,
+.btn-branding-dark:hover {
 	border-color: var(--fourth-color);
 }
 .project-description {
-	padding: 48px;
+	padding: 32px 48px;
 }
 
 .about-content {
@@ -108,7 +106,8 @@ button:hover {
 }
 footer .contact-box {
 	background: var(--primary-color);
-	padding: 24px 38px;
+	margin: 20px;
+	padding: 22px 38px;
 	padding-top: 32px;
 	border-radius: 4px;
 }
@@ -156,5 +155,8 @@ footer .social-links a:hover {
 	}
 	.about-content {
 		text-align: center;
+	}
+	footer .contact-box {
+		margin: 0px;
 	}
 }

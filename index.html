@@ -3,6 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Judy Liang is a front-end developer based in Canada."
+		/>
 		<title>Judy Liang</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -32,13 +36,13 @@
 	<body>
 		<nav class="navbar d-flex">
 			<div class="container">
-				<a href="/index.html"
-					><img src="images/Group 17.png" alt="logo" class="logo"
+				<a href="/index.html" title="Homepage"
+					><img src="images/Group 17.png" alt="Judy Liang logo" class="logo"
 				/></a>
 				<ul>
-					<li><a href="/about.html">About</a></li>
-					<li><a href="/work.html">Projects</a></li>
-					<li><a href="/contact.html">Contacts</a></li>
+					<li><a href="/about.html" title="About Judy">About</a></li>
+					<li><a href="/work.html" title="Judy's Projects">Projects</a></li>
+					<li><a href="/contact.html" title="Contact Judy">Contacts</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -52,11 +56,15 @@
 			<h3 class="text-center text-decoration-underline my-5">My Projects</h3>
 			<div class="row m-5">
 				<div class="col d-none d-lg-block">
-					<img src="images/yogurt.png" alt="yogurt site" class="img-fluid" />
+					<img
+						src="images/yogurt.png"
+						alt="yogurt site preview"
+						class="img-fluid"
+					/>
 				</div>
 				<div class="col project-description">
 					<h2 class="mb-4">Yogurt Project</h2>
-					<p>
+					<p class="mb-4">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae
 						eros ultrices tellus volutpat pretium. Aliquam condimentum arcu vel
 						consequat facilisis. Etiam posuere sodales tellus, in vehicula arcu
@@ -70,13 +78,13 @@
 						interdum ex finibus maximus ut eget elit. Phasellus a velit ante.
 						Nunc vestibulum sed quam quis eleifend.
 					</p>
-					<button class="btn btn-sec">Learn more</button>
+					<a href="/work.html" class="btn btn-sec">View project</a>
 				</div>
 			</div>
 			<div class="row m-5">
 				<div class="col project-description">
 					<h2 class="mb-4">Weather App</h2>
-					<p>
+					<p class="mb-4">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae
 						eros ultrices tellus volutpat pretium. Aliquam condimentum arcu vel
 						consequat facilisis. Etiam posuere sodales tellus, in vehicula arcu
@@ -90,19 +98,23 @@
 						interdum ex finibus maximus ut eget elit. Phasellus a velit ante.
 						Nunc vestibulum sed quam quis eleifend.
 					</p>
-					<button class="btn btn-sec">Learn more</button>
+					<a href="/work.html" class="btn btn-sec">View project</a>
 				</div>
 				<div class="col d-none d-lg-block">
-					<img src="images/weather.png" alt="weather app" class="img-fluid" />
+					<img
+						src="images/weather.png"
+						alt="weather app preview"
+						class="img-fluid"
+					/>
 				</div>
 			</div>
 			<div class="row m-5">
 				<div class="col d-none d-lg-block">
-					<img src="images/yoga.png" alt="yoga app" class="img-fluid" />
+					<img src="images/yoga.png" alt="yoga app preview" class="img-fluid" />
 				</div>
 				<div class="col project-description">
 					<h2 class="mb-4">Yoga Project</h2>
-					<p>
+					<p class="mb-4">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae
 						eros ultrices tellus volutpat pretium. Aliquam condimentum arcu vel
 						consequat facilisis. Etiam posuere sodales tellus, in vehicula arcu
@@ -116,10 +128,10 @@
 						interdum ex finibus maximus ut eget elit. Phasellus a velit ante.
 						Nunc vestibulum sed quam quis eleifend.
 					</p>
-					<button class="btn btn-sec">Learn more</button>
+					<a href="/work.html" class="btn btn-sec">View project</a>
 				</div>
 			</div>
-			<footer>
+			<footer class="mt-5">
 				<div class="contact-box d-flex justify-content-between mb-5">
 					<div>
 						<h3>Work Inquiry</h3>
@@ -129,18 +141,30 @@
 						<button class="btn btn-branding">Contact me</button>
 					</div>
 				</div>
-				<a href="mailto:judyliang25@gmail.com">judyliang25@gmail.com</a>
+				<a href="mailto:judyliang25@gmail.com" title="Email Judy"
+					>judyliang25@gmail.com</a
+				>
 				<div class="social-links">
-					<a href="https: /www.instagram.com/patricia" target="_blank"
+					<a
+						href="https: /www.instagram.com/patricia"
+						title="Instagram Profile"
+						target="_blank"
 						><i class="fa-brands fa-instagram"></i
 					></a>
-					<a href="https: /www.github.com/patricia" target="_blank"
+					<a
+						href="https: /www.github.com/patricia"
+						title="Github Profile"
+						target="_blank"
 						><i class="fa-brands fa-github"></i
 					></a>
-					<a href="https: /www.facebook.com/patricia" target="_blank"
+					<a
+						href="https: /www.facebook.com/patricia"
+						title="Facebook Profile"
+						target="_blank"
 						><i class="fa-brands fa-facebook"></i
 					></a>
 				</div>
+				<p class="mt-4">Coded by Judy Liang, and hosted on Netlify</p>
 			</footer>
 		</div>
 	</body>
